@@ -9,17 +9,31 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="源文件\头文件">
+    <Filter Include="头文件">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
+    <Filter Include="源文件\basicLearning">
+      <UniqueIdentifier>{8ae10b66-a3eb-4caf-b0f7-60f42367c559}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\basicLearning">
+      <UniqueIdentifier>{eb3749ff-a6d0-40fd-8d8a-8a1681a8e020}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="demo01.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="demo02.cpp">
-      <Filter>源文件</Filter>
+      <Filter>源文件\basicLearning</Filter>
     </ClCompile>
+    <ClCompile Include="demo01.cpp">
+      <Filter>源文件\basicLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="demo03.cpp">
+      <Filter>源文件\basicLearning</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="demo01.h">
+      <Filter>头文件\basicLearning</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
