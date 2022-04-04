@@ -142,6 +142,7 @@
     <ClCompile Include="demo01.cpp" />
     <ClCompile Include="demo02.cpp" />
     <ClCompile Include="demo03.cpp" />
+    <ClCompile Include="demo04.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo01.h" />

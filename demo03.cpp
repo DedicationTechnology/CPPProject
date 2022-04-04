@@ -25,7 +25,7 @@ void func001()
 }
 
 
-int main()
+int main003()
 {
 	func001();
 	return 0;

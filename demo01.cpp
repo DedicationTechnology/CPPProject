@@ -3,7 +3,7 @@
 #define _CRT_SECURE_NO_WARNINGS     //这个宏定义最好要放到文件的第一行,在运行的时候不会出现警告提示
 
 
-int main000() {
+int main001() {
 	//system("pause");  // pause程序的作用是等待用户输入任意键
 	extern int test;  // extern用于告诉编译器有这个变量但是没有定义所以无法赋值
 	//test = 10;  // >>> 会报错
