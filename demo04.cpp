@@ -18,7 +18,9 @@ void fun01()
 	cout << "test02的值:" << test02 << endl;  // 在编译器未优化的情况下的得到的就是真实地址test02内的数据 >>> 100
 	cout << "p1的值:" << *p1 << endl;  // >>> 100
 }
-int main()
+
+
+int main004()
 {
 	int* p = (int*)&test01;
 	//*p = 100;  // 全局的const不能间接修改

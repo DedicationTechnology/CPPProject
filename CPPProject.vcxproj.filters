@@ -33,6 +33,9 @@
     <ClCompile Include="demo04.cpp">
       <Filter>源文件\basicLearning</Filter>
     </ClCompile>
+    <ClCompile Include="demo05.cpp">
+      <Filter>源文件\basicLearning</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="demo01.h">
